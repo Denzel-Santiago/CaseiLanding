@@ -228,8 +228,8 @@ export default function LandingPage2() {
       <section className="py-20 px-6 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <span className="text-purple-300 font-semibold text-sm uppercase tracking-wide">Inversión Inteligente</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-3">Modelos de Contratación Flexibles</h2>
+            <span className="text-purple-300 font-semibold text-sm uppercase tracking-wide">Sostenibilidad del Proyecto</span>
+            <h2 className="text-4xl md:text-5xl font-bold mt-3">Propuesta de Monetización</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -237,17 +237,18 @@ export default function LandingPage2() {
               <div className="w-16 h-16 bg-gradient-to-br from-emerald-400 to-teal-400 rounded-2xl flex items-center justify-center mb-6 shadow-xl">
                 <TrendingUp className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-3xl font-bold mb-4">Licencia Institucional</h3>
+              <h3 className="text-3xl font-bold mb-4">Licenciamiento para Instituciones Educativas</h3>
               <p className="text-emerald-100 mb-6 text-lg">
-                Suscripción anual completa por campus, con precio ajustado al tamaño
-                de tu institución. Sin costos ocultos.
+                Aunque el sistema fue desarrollado para la UPChiapas, puede ofrecerse
+                a otras instituciones de educación superior que requieran optimizar
+                sus procesos académicos y de seguimiento estudiantil.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Costo único anual por campus",
-                  "Actualizaciones automáticas incluidas",
-                  "Soporte técnico prioritario 24/7",
-                  "Capacitación inicial sin cargo"
+                  "Licencia anual por institución",
+                  "Gestión académica centralizada",
+                  "Control de tutorías y seguimiento estudiantil",
+                  "Soporte técnico y actualizaciones"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-center gap-3">
                     <div className="w-6 h-6 bg-emerald-400 rounded-full flex items-center justify-center flex-shrink-0">
@@ -263,17 +264,19 @@ export default function LandingPage2() {
               <div className="w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-400 rounded-2xl flex items-center justify-center mb-6 shadow-xl">
                 <Sparkles className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-3xl font-bold mb-4">Servicios Premium</h3>
+              <h3 className="text-3xl font-bold mb-4">Apoyo para Procesos de Acreditación</h3>
               <p className="text-purple-100 mb-6 text-lg">
-                Potencia tu sistema con módulos avanzados y capacidades empresariales
-                a la medida de tus necesidades.
+                La plataforma puede apoyar a universidades durante procesos de
+                acreditación y certificación, facilitando la recopilación de
+                evidencias, indicadores y métricas relacionadas con tutorías y
+                desempeño estudiantil.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Reportes avanzados con BI",
-                  "Integración con ERPs externos",
-                  "Módulos personalizados a medida",
-                  "Consultoría estratégica incluida"
+                  "Generación automática de evidencias",
+                  "Gráficas e indicadores académicos",
+                  "Reportes para procesos de acreditación",
+                  "Seguimiento de tutorías y estudiantes"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-center gap-3">
                     <div className="w-6 h-6 bg-purple-400 rounded-full flex items-center justify-center flex-shrink-0">
