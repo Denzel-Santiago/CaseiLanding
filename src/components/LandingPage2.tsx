@@ -98,21 +98,21 @@ export default function LandingPage2() {
                     Sistema Inteligente de Propuesta de Cargas Académicas
                   </h3>
                   <p className="text-lg text-emerald-50 leading-relaxed">
-                    Olvídate del trabajo manual. Nuestro algoritmo inteligente analiza en segundos
+                    Olvídate del trabajo manual. Nuestro sistema analiza en segundos
                     las materias pendientes, evalúa grupos disponibles, considera restricciones de
                     horarios y genera automáticamente las mejores combinaciones posibles para cada alumno.
+Nuestra propuesta es un motor de inteligencia académica que integra Machine Learning para trazar la ruta de materias con mayor probabilidad de éxito, Algoritmos Genéticos para generar horarios matemáticamente libres de colisiones, y un LLM local para justificar pedagógicamente las decisiones, automatizando así la creación de cargas académicas viables y personalizadas para alumnos irregulares.
                   </p>
                 </div>
               </div>
 
-              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="flex flex-wrap justify-center gap-4">
                 {[
                   { icon: "🎯", text: "Análisis automático de historial" },
-                  { icon: "⚡", text: "Resultados en tiempo real" },
                   { icon: "🔄", text: "Múltiples combinaciones viables" },
                   { icon: "✨", text: "Optimización de horarios" }
                 ].map((feature, idx) => (
-                  <div key={idx} className="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/20">
+                  <div key={idx} className="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/20 w-full sm:w-1/2 lg:w-1/4">
                     <div className="text-3xl mb-2">{feature.icon}</div>
                     <p className="text-sm font-medium">{feature.text}</p>
                   </div>
@@ -237,15 +237,15 @@ export default function LandingPage2() {
               <div className="w-16 h-16 bg-gradient-to-br from-emerald-400 to-teal-400 rounded-2xl flex items-center justify-center mb-6 shadow-xl">
                 <TrendingUp className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-3xl font-bold mb-4">Licenciamiento para Instituciones Educativas</h3>
+              <h3 className="text-3xl font-bold mb-4">Suscripción para Instituciones Educativas</h3>
               <p className="text-emerald-100 mb-6 text-lg">
                 Aunque el sistema fue desarrollado para la UPChiapas, puede ofrecerse
-                a otras instituciones de educación superior que requieran optimizar
+                a otras instituciones (como un SaaS) de educación superior que requieran optimizar
                 sus procesos académicos y de seguimiento estudiantil.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Licencia anual por institución",
+                  "Suscripción anual por institución",
                   "Gestión académica centralizada",
                   "Control de tutorías y seguimiento estudiantil",
                   "Soporte técnico y actualizaciones"
